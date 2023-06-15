@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696969"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:id="@+id/buttonDOWN"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#1E90FF"
+        android:text="▼"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF1"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF2"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF3"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF4"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF5"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF6"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF7"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF8"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF9"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF10"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF11"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF12"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF13"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF14"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF15"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF16"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF17"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF18"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF19"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF20"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF21"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF22"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF23"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF24"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF25"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF26"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF27"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF28"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF29"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF30"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF31"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF32"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF33"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF34"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF35"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF36"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF37"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF38"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF39"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF40"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF41"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF42"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF43"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF44"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF45"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF46"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF47"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF48"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF49"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF50"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF51"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF52"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF53"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF54"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF55"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF56"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF57"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF58"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF59"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF60"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF61"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF62"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF63"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF64"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF65"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF66"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF67"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF68"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF69"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF70"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF71"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF72"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF73"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF74"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF75"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF76"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF77"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF78"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF79"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF80"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF81"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF82"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF83"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF84"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF85"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF86"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF87"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF88"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF89"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF90"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF91"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF92"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF93"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF94"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF95"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF96"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF97"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF98"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF99"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF100"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF101"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF102"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF103"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF104"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewPF105"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF106"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF107"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF108"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF109"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF110"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF111"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+            <ImageView
+                android:id="@+id/imageViewPF112"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:srcCompat="@drawable/icebg" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonLEFT"
+        android:layout_width="65dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#1E90FF"
+        android:text="◀"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/buttonRIGHT"
+        android:layout_width="65dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#1E90FF"
+        android:text="▶"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#1E90FF"
+        android:text="+"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/buttonUP"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#1E90FF"
+        android:text="▲"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#1E90FF"
+        android:text="⚙"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

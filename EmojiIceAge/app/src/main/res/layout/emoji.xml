@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="#696969">
+
+    <ImageView
+        android:id="@+id/imageVirusSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageClownSmile"
+        app:srcCompat="@drawable/virussmile" />
+
+    <ImageView
+        android:id="@+id/imageDevilSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="58dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlienSmile"
+        app:srcCompat="@drawable/devilsmile" />
+
+    <ImageView
+        android:id="@+id/imageClownSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAngrySmile"
+        app:srcCompat="@drawable/clownsmile" />
+
+    <ImageView
+        android:id="@+id/imageAlienSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="58dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSmile"
+        app:srcCompat="@drawable/aliensmile" />
+
+    <ImageView
+        android:id="@+id/imageAngrySmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/angrysmile" />
+
+    <ImageView
+        android:id="@+id/imageSmile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/smile" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CHOOSE EMOJI"
+        android:textColor="#1E90FF"
+        android:textSize="60sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEmojiBack"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/buttonSmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSmile" />
+
+    <Button
+        android:id="@+id/buttonAngrySmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAngrySmile" />
+
+    <Button
+        android:id="@+id/buttonAlienSmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAlienSmile" />
+
+    <Button
+        android:id="@+id/buttonClownSmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageClownSmile" />
+
+    <Button
+        android:id="@+id/buttonDevilSmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDevilSmile" />
+
+    <Button
+        android:id="@+id/buttonVirusSmile"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:backgroundTint="#1E90FF"
+        android:text="Select"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageVirusSmile" />
+</androidx.constraintlayout.widget.ConstraintLayout>
